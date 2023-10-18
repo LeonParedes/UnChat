@@ -21,7 +21,6 @@ class ChatScreen extends StatelessWidget{
     body: _ChatView(),    
     );
   }
-
 }
 class _ChatView extends StatelessWidget{
 
