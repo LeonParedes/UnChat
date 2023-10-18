@@ -23,7 +23,7 @@ Widget build(BuildContext context){
        
       ),
       const SizedBox(height: 5),
-      const _ImageBubble(urlGif: 'http://ye'),
+      const _ImageBubble(urlGif: 'http://yesno.wtf/assets/yes/1-af11222d8d4af90bdab8fc447c8cfebf.gif'),
       const SizedBox(height:  10),
     ],
  );

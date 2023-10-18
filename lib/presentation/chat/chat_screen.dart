@@ -29,7 +29,7 @@ Widget build(BuildContext context) {
     child: Padding(padding: const EdgeInsets.all(4.0),
     child: Column(
       children: [
-        Expanded(child: Container(color: Colors.pink[200])),
+        Expanded(child: Container(color: Colors.tealAccent[200])),
       const Text("Holis"),
       const Text("Mundo")
 
