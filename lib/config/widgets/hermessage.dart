@@ -11,13 +11,13 @@ Widget build(BuildContext context){
     children: [
       Container(
         decoration:  BoxDecoration(
-          color: colors.secondary, borderRadius:  BorderRadius.circular(20)
+          color: colors.tertiary, borderRadius:  BorderRadius.circular(50)
         ),
         child : const Padding(
             padding: EdgeInsets.symmetric(
               horizontal: 20, vertical: 10),
                child: Text('Hola Mundo',
-        style: TextStyle(color: colors.tertiary),
+        style: TextStyle(color: Colors.white),
         ),
         ),
        
@@ -28,8 +28,9 @@ Widget build(BuildContext context){
     ],
  );
  }
-
 }
+
+
 class _ImageBubble extends StatelessWidget{
   final String urlGif;
 
@@ -51,5 +52,5 @@ class _ImageBubble extends StatelessWidget{
             ),
             ),
     );
-  }
-  }
+   }
+}

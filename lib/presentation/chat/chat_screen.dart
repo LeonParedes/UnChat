@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:segunda_api/config/widgets/hermessage.dart';
+import 'package:segunda_api/config/widgets/mymessage.dart';
 
 
 class ChatScreen extends StatelessWidget{
@@ -29,14 +31,18 @@ Widget build(BuildContext context) {
     child: Padding(padding: const EdgeInsets.all(4.0),
     child: Column(
       children: [
-        Expanded(child: Container(color: Colors.tealAccent[200])),
-      const Text("Holis"),
-      const Text("Mundo")
-
-    ]),)
-    
+        Expanded(
+          child: ListView.builder(
+            itemCount:10,
+            itemBuilder: (context, index){
+              return index % 2 == 0
+                  ? const HerMessageBubble()
+                  : const MyMessageBubble();
+            },
+          ),
+        ), 
+      ],
+    ),)    
     );
-
-
   }
   }

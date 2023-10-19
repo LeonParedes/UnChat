@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: AppTheme(
-       selectedColor: 1).theme(),
+       selectedColor: 3).theme(),
       home: ChatScreen(),
     );
   }
