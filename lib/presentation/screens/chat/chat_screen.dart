@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:segunda_api/presentation/widgets/chat/hermessage.dart';
-import 'package:segunda_api/presentation/widgets/chat/mymessage.dart';
 import '../../shared/message_field_box.dart';
 import '/../Model/dto/message.dart';
 import '../../widgets/chat/message_bubble.dart';
@@ -23,7 +21,7 @@ class ChatScreen extends StatelessWidget{
       centerTitle: false,
    
     ),
-    body: ChatView(),    
+    body: ChatView()    
     );
   }
 }
@@ -58,10 +56,8 @@ Widget build(BuildContext context) {
             ),
             MessageFieldBox(onValue: chatProvider.sendMessage),
           ],
-          
           ),
-        
         ),
     );
   }
-  }
+}

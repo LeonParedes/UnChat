@@ -1,6 +1,6 @@
 {
-    "name": "segunda_api",
-    "short_name": "segunda_api",
+    "name": "un_chat",
+    "short_name": "un_chat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

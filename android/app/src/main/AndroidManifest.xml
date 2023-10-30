@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="segunda_api"
+        android:label="un_chat"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
